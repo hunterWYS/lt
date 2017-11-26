@@ -12,7 +12,7 @@ $(function (params) {
                 callback: function (params) {//必选，刷新函数，根据具体业务来编写，比如通过ajax从服务器获取新数据；                    
                     setTimeout(function(){
 
-                        queryProductDetail(function (result) {
+                         queryProductDetail(function (result) {
                             // alert(111);
                             mui('#refreshContainer').pullRefresh().endPulldownToRefresh();
                             /* 轮播图 */

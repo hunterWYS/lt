@@ -27,7 +27,7 @@ firstClass();
                 secondLevel(rows[0].id);
                 $.maskclose();
             }
-        })
+        }) 
     }
 /* ===============二级分类============ */
     function secondLevel(id) {
@@ -35,7 +35,7 @@ firstClass();
         $.ajax({
             // 拿到地址数据
             url:"/category/querySecondCategory?id="+id,
-            success:function(result){
+             success:function(result){
                 // console.log(result);
                 var rows=result.rows;
                 var strArr=[];

@@ -21,7 +21,7 @@ $(function(){
         //把数组加载出来
         var strArr=[];
         for (var index = 0; index < arr.length; index++) {
-            // console.log(arr.lenght);
+             // console.log(arr.lenght);
             strArr.push('<div class="itemList mui-clearfix" ><span class="mui-pull-left">' + arr[index] +'</span><span class="seekClose mui-icon mui-icon-closeempty mui-pull-right"></span></div >');
             // alert(strArr.push);
         }

@@ -11,7 +11,7 @@ $(function(){
             mui.toast("请输入合法的密码");
             return false;
         }
-
+ 
         $.ajax({
             url:"/user/login",
             type:"post",

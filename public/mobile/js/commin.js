@@ -13,7 +13,7 @@
 
         maskclose: function(){
             MASK.close();
-            $(".lt_Login").hide();
+             $(".lt_Login").hide();
         },
 
         //=============获取url上的参数================
