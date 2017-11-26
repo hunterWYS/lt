@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>乐淘-搜索</title>
+    <link rel="stylesheet" href="./asset/mui/css/mui.css">
+    <link rel="stylesheet" href="./asset/fontAwesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./css/commin.css">
+    <link rel="stylesheet" href="./css/search.css">
+</head>
+
+<body>
+
+    <!-- ================头部=========== -->
+    <header>
+        <h2>
+            <a href="javascript:history.back();" class="lt_header_srt">
+                <span class="mui-icon  fa fa-arrow-left"></span>
+            </a>
+            搜索中心
+        </h2>
+    </header>
+    <!-- ====================内容================== -->
+    <div class="lt_view">
+        <!-- ==搜索== -->
+        <div class="seek_form">
+            <form action="">
+                <input type="text" class="seekTxt" placeholder="搜索你喜欢的商品">
+                <button class="seekBtn" type="button">搜索</button>
+            </form>
+        </div>
+        <!-- ==搜索历史与清空历史== -->
+        <div class="seek_empty mui-clearfix">
+            <span class="seek_history">搜索历史</span>
+            <a href="javascript:;" class="empty_history mui-pull-right">
+                <span class="mui-icon mui-icon-trash"></span>
+                清空记录
+            </a>
+        </div>
+        <dvi class="seekTrace">
+
+        </dvi>
+    </div>
+    <!--==========页脚================== -->
+    <footer>
+        <a href="index.html" class="active">
+            <span class="mui-icon mui-icon-home"></span>
+            <p class="active">首页</p>
+        </a>
+        <a href="category.html">
+            <span class="mui-icon mui-icon-bars"></span>
+            <p>分类</p>
+        </a>
+        <a href="cart.html">
+            <span class="fa fa-cart-arrow-down"></span>
+            <p>购物车</p>
+        </a>
+        <a href="user/index.html">
+            <span class="mui-icon mui-icon-contact"></span>
+            <p>会员中心</p>
+        </a>
+    </footer>
+</body>
+<script src="asset/mui/js/mui.js"></script>
+<script src="./asset/zepto/zepto.min.js"></script>
+<script src="./js/commin.js"></script>
+<script src="./js/search.js"></script>
+
+</html>

@@ -1,0 +1,88 @@
+/* ==========修改的头部================== */
+header h2 .lt_header_srt {
+  color: #ffffff;
+  float: left;
+}
+/* ==============搜索框============== */
+.lt_view {
+  position: relative;
+  height: 100%;
+  padding: 10px;
+  background-color: #fff;
+}
+.lt_view .seek_form {
+  padding-top: 10px;
+}
+.lt_view .seek_form form {
+  position: relative;
+  margin: 0 10px;
+}
+.lt_view .seek_form form .seekTxt {
+  width: 100%;
+  height: 35px;
+  padding-right: 20%;
+  margin: 0;
+}
+.lt_view .seek_form form .seekBtn {
+  width: 20%;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: none;
+  background-color: crimson;
+  color: #fff;
+  border: 1px solid #888;
+  border-left: none;
+}
+/* =================搜索历史与清空历史============ */
+.seek_empty {
+  margin: 10px 0;
+  text-align: center;
+}
+.seek_empty a {
+  display: block;
+  float: left;
+  width: 25%;
+  padding: 5px 0;
+  font-size: 12px;
+  color: #888;
+  background-color: #ccc;
+}
+.seek_empty a .mui-icon {
+  font-size: 14px;
+}
+.seek_empty .active {
+  background-color: purple;
+  color: #fff;
+  font-size: 16px;
+}
+.seek_empty .active_icon {
+  font-size: 25px;
+}
+.seekTrace {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.seekTrace .list_item {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+}
+.seekTrace .list_item .lt_list_item {
+  border: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+.seekTrace .list_item .lt_list_item .price {
+  color: red;
+}
+.seekTrace .list_item .lt_list_item img {
+  width: 100%;
+}
+.seekTrace .list_item .lt_list_item .describe {
+  padding: 0 10px;
+  overflow: hidden;
+  height: 40px;
+}

@@ -1,0 +1,24 @@
+/* =========修改的头部========= */
+header .mui-icon {
+  color: #fff;
+}
+/* ===========内容=========== */
+.lt_view form {
+  padding: 15px 0 0;
+}
+.lt_view form .mui-input-row:after {
+  background-color: #fff;
+}
+.lt_view form .mui-input-row .mui-icon {
+  right: 10px;
+}
+.lt_view form div {
+  margin-bottom: 15px;
+  padding: 0 10px;
+}
+.lt_view form div input {
+  border: 1px solid #ccc;
+}
+.lt_view form div .mui-btn {
+  width: 100%;
+}

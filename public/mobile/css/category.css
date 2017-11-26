@@ -1,0 +1,81 @@
+/* ===============修改的头部========== */
+header {
+  padding: 5px 30px;
+}
+header .lt_seek {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+header .lt_header_flt {
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+header .lt_header_frf {
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+/* ===============主体内容========= */
+.lt_view {
+  height: 100%;
+  position: relative;
+  padding-left: 80px;
+  /* 一级分类 */
+  /* 二级分类 */
+}
+.lt_view .lt_menu {
+  width: 80px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: scroll;
+}
+.lt_view .lt_menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.lt_view .lt_menu ul li {
+  text-align: center;
+}
+.lt_view .lt_menu ul li a {
+  background-color: purple;
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #000;
+  border-bottom: none;
+  color: #fff;
+}
+.lt_view .lt_centent {
+  width: 100%;
+  overflow: scroll;
+  padding: 5px;
+}
+.lt_view .lt_centent ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.lt_view .lt_centent ul li {
+  float: left;
+  width: 33.33%;
+  padding-left: 5px;
+}
+.lt_view .lt_centent ul li a {
+  display: block;
+}
+.lt_view .lt_centent ul li a img {
+  display: block;
+  width: 100%;
+}
+.lt_view .lt_centent ul li a p {
+  text-align: center;
+  color: #000;
+}
