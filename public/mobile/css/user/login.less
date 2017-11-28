@@ -8,12 +8,17 @@
  /* ===========内容=========== */
 
  .lt_view {
+     background-color: #fff;
+     height: 100%;
      form {
          padding: 15px 0 0;
+         &:after {
+             background-color: #fff;
+         }
          .mui-input-row {
              &:after {
                  background-color: #fff;
-             } 
+             }
              .mui-icon {
                  right: 10px;
              }
@@ -24,9 +29,14 @@
              input {
                  border: 1px solid #ccc;
              }
-             .mui-btn{
+             .mui-btn {
                  width: 100%;
              }
+         }
+         .form_login{
+             float: right;
+             font-size: 14px;
+             padding-right: 10px;
          }
      }
  }

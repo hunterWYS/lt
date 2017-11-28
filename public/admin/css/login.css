@@ -1,0 +1,13 @@
+html,
+body {
+  height: 100%;
+  background-color: black;
+}
+.lt_view .lt_panel {
+  width: 350px;
+  margin: 100px auto;
+}
+.lt_view .lt_panel .panel-heading {
+  background-color: blue;
+  color: #fff;
+}

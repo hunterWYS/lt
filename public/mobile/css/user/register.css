@@ -19,6 +19,13 @@ header .mui-icon {
 .lt_view form .mui-input-row .mui-icon {
   right: 10px;
 }
+.lt_view form .mui-input-row .form_verify {
+  width: 60%;
+}
+.lt_view form .mui-input-row .verifyBtn {
+  width: 30%;
+  height: 100%;
+}
 .lt_view form div {
   margin-bottom: 15px;
   padding: 0 10px;
@@ -26,11 +33,6 @@ header .mui-icon {
 .lt_view form div input {
   border: 1px solid #ccc;
 }
-.lt_view form div .mui-btn {
+.lt_view form div .loginBtn {
   width: 100%;
-}
-.lt_view form .form_login {
-  float: right;
-  font-size: 14px;
-  padding-right: 10px;
 }

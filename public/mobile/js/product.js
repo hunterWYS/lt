@@ -74,7 +74,7 @@ $(function (params) {
             success:function(result){
                 mui.confirm("是否要跳转到购物车页面","成功添加",["跳转","不跳转"],function(e){
                     if(e.index==0){
-                        location.href="product.html";
+                        location.href="cart.html";
                     }else if(e.index==1){
                         return;
                     }
